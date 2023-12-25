@@ -8,5 +8,5 @@ interface navLink {
 	name: string;
 	href: string;
 	icon: IconType;
-	className: string;
+	mobileClassName: string;
 }

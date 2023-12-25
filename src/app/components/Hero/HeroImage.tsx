@@ -8,7 +8,7 @@ export default function HeroImage() {
 			width={1000}
 			height={1000}
 			id="hero-image"
-			className="w-2/3 pointer-events-none border-2 border-black"
+			className="w-2/3 pointer-events-none border-2 border-black md:w-1/3 xl:w-1/4"
 		/>
 	);
 }
