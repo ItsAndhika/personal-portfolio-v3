@@ -1,27 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@layer base {
+	body {
+		font-family: "Poppins", sans-serif;
+		overflow-x: hidden;
+	}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+	::-webkit-scrollbar {
+		width: 5px;
+	}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	::-webkit-scrollbar-thumb {
+		@apply bg-black/90 rounded-full;
+	}
+
+	::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	#hero-image {
+		border-radius: 42% 56% 72% 82% / 42% 42% 56% 48%;
+		-webkit-border-radius: 42% 56% 72% 82% / 42% 42% 56% 48%;
+		-moz-border-radius: 42% 56% 72% 82% / 42% 42% 56% 48%;
+		-ms-border-radius: 42% 56% 72% 82% / 42% 42% 56% 48%;
+		-o-border-radius: 42% 56% 72% 82% / 42% 42% 56% 48%;
+		animation: blob 7s infinite;
+		-webkit-animation: blob 7s infinite;
+	}
+
+	@keyframes blob {
+		0%,
+		100% {
+			border-radius: 42% 52% 72% 28% / 42% 42% 56% 48%;
+			-webkit-border-radius: 42% 52% 72% 28% / 42% 42% 56% 48%;
+			-moz-border-radius: 42% 52% 72% 28% / 42% 42% 56% 48%;
+			-ms-border-radius: 42% 52% 72% 28% / 42% 42% 56% 48%;
+			-o-border-radius: 42% 52% 72% 28% / 42% 42% 56% 48%;
+		}
+
+		/* 33% {
+			border-radius: 42% 28% 72% 28% / 28% 28% 72% 72%;
+			-webkit-border-radius: 42% 28% 72% 28% / 28% 28% 72% 72%;
+			-moz-border-radius: 42% 28% 72% 28% / 28% 28% 72% 72%;
+			-ms-border-radius: 42% 28% 72% 28% / 28% 28% 72% 72%;
+			-o-border-radius: 42% 28% 72% 28% / 28% 28% 72% 72%;
+		} */
+
+		66% {
+			border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+			-webkit-border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+			-moz-border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+			-ms-border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+			-o-border-radius: 100% 56% 56% 100% / 100% 100% 56% 56%;
+		}
+	}
 }

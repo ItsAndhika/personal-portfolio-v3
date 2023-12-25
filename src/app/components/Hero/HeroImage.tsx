@@ -1,0 +1,14 @@
+import Image from "next/image";
+
+export default function HeroImage() {
+	return (
+		<Image
+			src={"/img/hero-image.jpeg"}
+			alt="My Profile"
+			width={1000}
+			height={1000}
+			id="hero-image"
+			className="w-2/3 pointer-events-none border-2 border-black"
+		/>
+	);
+}
