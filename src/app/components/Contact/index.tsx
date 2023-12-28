@@ -27,10 +27,10 @@ export default function Contact() {
 	return (
 		<>
 			<div id="contact"></div>
-			<section className="container p-5 mx-auto mt-20 lg:max-w-4xl">
+			<section className="container p-5 mx-auto mt-20 overflow-hidden lg:max-w-4xl">
 				<h1 className="text-2xl font-bold text-center mb-10">CONTACT</h1>
 				<div className="w-full shadow-lg border border-slate-700/10 rounded-md grid md:grid-cols-2">
-					<div className="flex flex-col justify-around gap-10 p-10 bg-slate-50">
+					<div className="flex flex-col justify-around gap-10 p-5 bg-slate-50">
 						<h2 className="text-xl font-semibold ">Let&apos;s get in touch</h2>
 						<div className="flex flex-col gap-2">
 							<div className="flex items-center gap-2">
@@ -66,7 +66,7 @@ export default function Contact() {
 							</div>
 						</div>
 					</div>
-					<div className="flex flex-col p-10 bg-slate-200 gap-5">
+					<div className="flex flex-col p-5 bg-slate-200 gap-5">
 						<h2 className="text-xl font-semibold">Contact Me</h2>
 						<form
 							action=""

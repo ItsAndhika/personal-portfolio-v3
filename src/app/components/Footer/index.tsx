@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
 	return (
 		<footer className="w-full bg-slate-100">
-			<div className="p-5 grid gap-10 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
+			<div className="p-5 grid gap-10 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:max-w-5xl">
 				<div>
 					<h1 className="text-2xl font-bold">Primananda Andhika</h1>
 					<p>Junior Web Developer</p>
