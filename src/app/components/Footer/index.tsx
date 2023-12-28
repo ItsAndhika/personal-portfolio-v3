@@ -7,7 +7,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
 	return (
 		<footer className="w-full bg-slate-100">
-			<div className="p-5 grid gap-10 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:max-w-5xl">
+			<div className="p-5 grid gap-10 mx-auto sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:max-w-3xl xl:max-w-5xl">
 				<div>
 					<h1 className="text-2xl font-bold">Primananda Andhika</h1>
 					<p>Junior Web Developer</p>
@@ -39,7 +39,7 @@ export default function Footer() {
 						</Link>
 					</div>
 				</nav>
-				<div className="flex flex-col gap-2">
+				<div className="flex flex-col gap-2 ">
 					<h2 className="text-xl font-semibold mb-1">Address</h2>
 					<p>Purworejo, Central Java, Indonesia</p>
 					<p>primanandandhika@gmail.com</p>
