@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
 	return (
 		<>
-			<div className="bg-slate-100 w-full grid gap-10">
+			<section className="bg-slate-100 w-full grid gap-10">
 				<h1 className="text-2xl font-bold text-center">ABOUT ME</h1>
 				<div className="grid justify-center items-center mx-auto max-w-5xl gap-10 lg:grid-cols-2 lg:gap-0">
 					<div className="w-2/3 mx-auto relative z-10 before:absolute before:top-2 before:left-2 before:w-full before:h-full before:border-2 before:border-black before:rounded-lg before:-z-10 md:w-1/3 lg:w-3/4">
@@ -34,13 +34,12 @@ export default function About() {
 						difficult to understand.
 					</p>
 				</div>
-			</div>
+			</section>
 			<Image
 				src={"/img/wave-bottom.svg"}
 				alt=""
 				width={1000}
 				height={1000}
-				id="skills"
 				className="w-full"
 			/>
 		</>

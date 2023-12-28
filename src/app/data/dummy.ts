@@ -34,7 +34,7 @@ export const techStack: Array<techStack> = [
 export const navLink: Array<navLink> = [
 	{
 		name: "Home",
-		href: "/",
+		href: "#home",
 		icon: FaHome,
 		mobileClassName:
 			"flex items-center gap-5 p-2 transition rounded-lg hover:bg-black hover:text-white",
@@ -168,6 +168,6 @@ export const projects: Array<projects> = [
 		],
 		github:
 			"https://github.com/ItsAndhika/radja_parfum_site/tree/master/client",
-		demo: "https://mosto-elegant.vercel.app",
+		demo: "https://mostoelegant.vercel.app",
 	},
 ];
