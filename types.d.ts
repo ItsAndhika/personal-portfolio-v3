@@ -10,3 +10,16 @@ interface navLink {
 	icon: IconType;
 	mobileClassName: string;
 }
+
+interface skills {
+	src: string;
+	alt: string;
+}
+
+interface projects {
+	name: string;
+	picture: string;
+	techs: Array<string>;
+	github: string;
+	demo: string;
+}
