@@ -52,16 +52,18 @@ export default function Contact() {
 								<Link
 									href="https://github.com/ItsAndhika"
 									target="_blank"
-									className="p-3 text-white bg-black border rounded-md transition cursor-pointer hover:bg-transparent hover:border-black hover:text-black"
+									className="flex gap-1 items-center p-3 text-white bg-black border rounded-md transition cursor-pointer hover:bg-transparent hover:border-black hover:text-black"
 								>
 									<FiGithub size={20} />
+									GitHub
 								</Link>
 								<Link
 									href="https://instagram.com/einmanns_"
 									target="_blank"
-									className="p-3 text-white bg-black border rounded-md transition cursor-pointer hover:bg-transparent hover:border-black hover:text-black"
+									className="flex gap-1 items-center p-3 text-white bg-black border rounded-md transition cursor-pointer hover:bg-transparent hover:border-black hover:text-black"
 								>
 									<FaInstagram size={20} />
+									Instagram
 								</Link>
 							</div>
 						</div>

@@ -8,14 +8,14 @@ export default function About() {
 				<div className="grid justify-center items-center mx-auto max-w-5xl gap-10 lg:grid-cols-2 lg:gap-0">
 					<div className="w-2/3 mx-auto relative z-10 before:absolute before:top-2 before:left-2 before:w-full before:h-full before:border-2 before:border-black before:rounded-lg before:-z-10 md:w-1/3 lg:w-3/4">
 						<Image
-							src="/img/about-image.jpeg"
+							src="/img/about-image.webp"
 							alt="About Image"
 							width={1000}
 							height={1000}
 							className="w-full h-full rounded-lg z-10"
 						/>
 					</div>
-					<p className="px-20 text-center lg:px-0 lg:text-left">
+					<p className="px-16 text-center lg:px-0 lg:text-left">
 						Hi there! My name is Primananda Andhika, i am from Central Java,
 						Indonesia. Currently i live in Purworejo regency. I&apos;ve been
 						learning coding since I was at class 8 Junior High School. First

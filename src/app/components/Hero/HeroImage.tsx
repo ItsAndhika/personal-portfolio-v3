@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function HeroImage() {
 	return (
 		<Image
-			src={"/img/hero-image.jpeg"}
+			src={"/img/hero-image.webp"}
 			alt="My Profile"
 			width={1000}
 			height={1000}

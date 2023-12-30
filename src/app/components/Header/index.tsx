@@ -53,12 +53,12 @@ export default function Header() {
 					<Link href={"/"}>
 						<h1 className="text-lg cursor-pointer">prima()</h1>
 					</Link>
-					<button
+					<div
 						className="cursor-pointer transition hover:opacity-80 lg:hidden"
 						onClick={handleOpenClick}
 					>
 						<CgMenuRight size={24} />
-					</button>
+					</div>
 					<nav className="hidden lg:block">
 						<ul className="flex justify-around items-center gap-5">
 							{navLink.map((item) => (
