@@ -72,7 +72,7 @@ export default function Footer() {
 					/>
 				</div>
 				<p className="text-center text-sm mx-auto">
-					Copyright 2023 Primananda Andhika. All Rights Reserved.
+					Copyright 2024 Primananda Andhika. All Rights Reserved.
 				</p>
 			</div>
 		</footer>
