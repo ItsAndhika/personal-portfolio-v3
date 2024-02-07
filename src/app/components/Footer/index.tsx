@@ -64,7 +64,7 @@ export default function Footer() {
 						className="w-7"
 					/>
 					<Image
-						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+						src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
 						alt="Tailwind CSS"
 						width={1000}
 						height={1000}
