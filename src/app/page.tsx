@@ -11,7 +11,7 @@ export default function Home() {
 	return (
 		<>
 			<Header />
-			<main id="home" className="py-24 lg:pt-40 lg:pb-20 2xl:pt-80">
+			<main id="home" className="py-24 lg:pt-40 lg:pb-20 2xl:pt-80 ">
 				<Hero />
 				<TechStack />
 				<About />

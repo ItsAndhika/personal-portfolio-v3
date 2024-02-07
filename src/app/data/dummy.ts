@@ -131,7 +131,7 @@ export const projects: Array<projects> = [
 		techs: [
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
 		],
 		github: "https://github.com/ItsAndhika/personal-portfolio-v3",
 		demo: "https://primananda.vercel.app",
@@ -141,7 +141,7 @@ export const projects: Array<projects> = [
 		picture: "/img/old-personal-portfolio.png",
 		techs: [
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
 		],
 		github: "https://github.com/ItsAndhika/personal-portfolio-v2",
 		demo: "https://primananda-old.vercel.app",
@@ -152,7 +152,7 @@ export const projects: Array<projects> = [
 		techs: [
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
 		],
 		github:
@@ -164,7 +164,7 @@ export const projects: Array<projects> = [
 		picture: "/img/mosto-elegant-linktree.png",
 		techs: [
 			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
-			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+			"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
 		],
 		github:
 			"https://github.com/ItsAndhika/radja_parfum_site/tree/master/client",
