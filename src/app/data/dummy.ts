@@ -91,7 +91,7 @@ export const skills: Array<skills> = [
 		alt: "Bootstrap",
 	},
 	{
-		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+		src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
 		alt: "Tailwind CSS",
 	},
 	{
